@@ -1,0 +1,90 @@
+footer {
+    background-color: #2C2B3B;
+    color: white; 
+    padding: 20px;
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gmap_canvas {
+    display: inline-block;
+}
+
+.Socials {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Socials img {
+    width: 3vh;
+    height: 10vw;
+}
+
+.copyright {
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.quick-links, .Student-corner {
+    width: 50%; /* Each section takes 50% width on big screens */
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column; /* Stack links vertically within each section */
+}
+
+.links-container a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.quick-links h3 {
+    text-transform: uppercase;
+    color: #408cff;
+    font-weight: 400;
+}
+
+.Student-corner h3 {
+    text-transform: uppercase;
+    color: #408cff;
+    font-weight: 400;
+}
+
+
+#FooterVBC h3,#FacultyVBC h3,#ContactVBC h3 {
+  /*text-transform: uppercase;*/
+    color: #408cff;
+    font-weight: 400;
+}
+
+/* For screens with a width greater than or equal to 1024px */
+@media (min-width: 1024px) {
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #FooterVBC, #FacultyVBC {
+        flex: 1;
+    }
+}
+
+/* For screens with a width greater than or equal to 1920px (2k screens) */
+@media (min-width: 1920px) {
+    .footer-content {
+        /* Adjust the layout for 2k screens if needed */
+    }
+}
+
+/* For screens with a width greater than or equal to 3840px (4k screens) */
+@media (min-width: 3840px) {
+    .footer-content {
+        /* Adjust the layout for 4k screens if needed */
+    }
+}

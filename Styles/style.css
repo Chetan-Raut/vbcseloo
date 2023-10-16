@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin: 1rem;
+}
+
+.cardbox {
+    height: 30vh;
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.cardbox img {
+    width: auto;
+    height: 30vh;
+    max-width: 100%;
+  }
+
+.navbar {
+    background-color: #2D3047;
+        }
+.navbar-brand {
+    color: white;
+        }
+.navbar-nav .nav-link {
+    color: white;
+        }
+.navbar-toggler-icon {
+    background-color: #fff;
+        }
+        
+.Menu {
+    background-color: #2D3047;
+    width: 100%;
+    padding: 40px; /* Adjust padding as needed */
+    text-align: center; /* Center text within the div */
+    margin-top: 10%;
+}
+
+.Menu a {
+    text-decoration: none;
+}
+
+.Menu img {
+    height: 10vh;
+    width: auto;
+    margin-right: 40%;
+}
+
+.Menu h1 {
+    color: white; /* Change text color to white or any other color you prefer */
+    font-size: 24px; /* Adjust font size as needed */
+}
+
+.Menu p {
+    color: white; /* Change text color to white or any other color you prefer */
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    .Menu {
+        padding: 5px; /* Adjust padding for smaller screens */
+    }
+
+    .Menu h1 {
+        font-size: 20px; /* Adjust font size for smaller screens */
+    }
+
+    .Menu p {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
+
+#about h2 {
+    text-align: center;
+    color: #408cff;
+}
+
+/*News section*/
+
+#LatestNews {
+     text-align: center;
+     background-color: #fff;
+     padding: 20px;
+}
+
+#LatestNews h2 {
+    color: red;
+}
+
+.news-item {
+     display: none;
+     animation: moveUp 2s ease-in-out infinite;
+     background-color: #2C8C99;
+     padding: 10px;
+     border: 1px solid #ddd;
+     margin: 10px 0;
+}
+.news-item h3 {
+     color: white;
+}
+.news-item p {
+     color: black;
+}
+
+/*Principals msg section*/
+
+#PrincipalMSG h2 {
+    text-align: center;
+    color: #408cff;
+} 
+     
+.circular-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.image-container {
+    width: 150px; /* Adjust the size as needed */
+    height: 150px; /* Adjust the size as needed */
+    overflow: hidden;
+    border-radius: 50%;
+}       
+       
+/*Carousel section*/   
+
+#Carousel h2 {
+    text-align: center;
+    color: #408cff;
+}     
+.carousel-inner img{
+    width: auto;
+    height: 50vh;
+}
+#AlbumBtn {
+    background-color: #408cff; 
+    color: white; 
+    padding: 10px 10px;
+    margin-left: 40%;
+    height: 7%;
+    border: none; 
+    border-radius: 25px; 
+    cursor: pointer;
+}
+
+
+
+/*Media Queries*/
+/* Define a general style for elements that will apply to all screen sizes */
+/* For screens with a width of up to 320px */
+@media (max-width: 320px) {
+    /* Adjust your styles here */
+    
+    /* For example, you can make the font size smaller for better readability on smaller screens */
+    body {
+        font-size: 14px;
+    }
+    
+    /* Modify the layout to make it more suitable for smaller screens */
+    .navbar {
+        padding: 10px;
+    }
+
+    /* Hide or adjust elements that may not fit on small screens */
+    .news-item {
+        display: none; /* Hide news items on small screens */
+    }
+    
+    /* Adjust padding or margins to improve spacing on smaller screens */
+    .container {
+        padding: 10px;
+    }
+    
+    /* Make images responsive to the screen size */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
