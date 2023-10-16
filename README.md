@@ -6,10 +6,10 @@
 
 R.G. Bhoyar College, formerly known as Vidyabharti College (VBC) Seloo, is a prominent educational institution located in Maharashtra. Since its inception in 2008, we have been committed to delivering excellence in education. Our college offers a wide range of full-time degree programs, including:
 
-- Master of Commerce (M.Com)
+- Bachelor of Science (B.Sc.)
 - Bachelor of Arts (B.A.)
 - Bachelor of Commerce (B.Com)
-- Bachelor of Science (B.Sc.)
+- Master of Commerce (M.Com)
 
 ## Our Mission
 
