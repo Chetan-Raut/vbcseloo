@@ -12,6 +12,7 @@ R.G. Bhoyar College, formerly known as Vidyabharti College (VBC) Seloo, is a pro
 - Master of Arts (M.A)
 - Bachelor of Commerce (B.Com)
 - Master of Commerce (M.Com)
+- Master of business administration (M.B.A)
 
 ## Our Mission
 
